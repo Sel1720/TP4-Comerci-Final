@@ -1,0 +1,35 @@
+.fase2 {
+    background-color: #FFCE8C;
+    height: auto;
+    padding-top: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+.ventajas {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 2rem;
+    font-size: 16px;
+    flex: 1 1 200px;
+    max-width: 400px;
+    color: #551B07;
+}
+
+.ventajas img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ventajas h4 {
+    padding: 3rem 0px 1rem 0px;
+}
+
+.ventajas h4, 
+.ventajas p {
+    text-align: center;
+    font-size: 1.5rem;
+}

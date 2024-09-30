@@ -1,0 +1,88 @@
+.fase4 {
+    background-color: #FFCE8C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: auto;
+    padding-bottom: 5rem;
+}
+
+.background-4 {
+    width: 100vw;
+    height: 118vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.bloqueCaracteristicas {
+    margin-top: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bloqueCaracteristicas img:last-child {
+    margin-left: auto;
+    display: block;
+    height: 80%;
+    width: 50%;
+}
+
+.caracteristicas {
+    margin-left: auto;
+    z-index: 2;
+}
+
+.caracteristicas div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 3rem;
+    color: #551B07;
+}
+
+.caracteristicas div div {
+    flex-direction: column;
+    align-items: start;
+    font-size: 1.5rem;
+}
+
+.caracteristicas div div h4 {
+    margin-bottom: 1rem;
+}
+
+.caracteristicas div img {
+    right: 0;
+}
+
+@media (max-width: 1300px) {
+
+    .fase4 {
+        padding-bottom: 0;
+    }
+
+    .background-4 {
+        display: none;
+    }
+
+    .bloqueCaracteristicas {
+        flex-direction: column;
+    }
+
+    .bloqueCaracteristicas img:last-child {
+        position: relative;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .caracteristicas {
+        margin-left: 0;
+    }
+
+}

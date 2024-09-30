@@ -1,0 +1,106 @@
+.fase6 {
+    background-color: #F7F4EF;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+}
+
+.background-6 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.bloqueAccesorios {
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.producto6 {
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+    width: 60%;
+    height: 65%;
+    z-index: 1;
+}
+
+.accesorios {
+    color: #475438;
+    position: relative;
+    z-index: 2;
+    padding-right: 20%;
+    padding-top: 8vw;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.accesorios h1 {
+    margin-bottom: 2rem;
+    font-style: italic;
+}
+
+.accesorios div {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin-top: 1rem;
+}
+
+.accesorios div p {
+    margin-top: 5px;
+    margin-left: 1rem;
+}
+
+@media (max-width: 1500px) {
+    .accesorios {
+        padding-right: 5rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    .producto6 {
+        top: 15rem;
+        left: 5rem;
+    }
+    
+}
+
+@media (max-width: 880px) {
+
+    .fase6 {
+        height: 100%;
+    }
+
+    .background-6 {
+        height: 100%;
+    }
+
+    .accesorios {
+        padding-right: 0;
+    }
+
+    .producto6 {
+        position: relative;
+        width: 80%;
+        height: auto;
+        top: 0;
+        left: 0;
+
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .bloqueAccesorios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin-top: 10rem;
+    }
+}
